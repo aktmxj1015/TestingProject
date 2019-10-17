@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>넥스트아이티 학원</h1>
+<h1>넥스트아이티 홈페이지!!!! </h1>
 </body>
 </html>
