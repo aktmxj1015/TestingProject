@@ -27,27 +27,19 @@ public class MemberDAOTest {
 		assertThat(vo.getMemName(), is(not("유성순")));
 	}
 
-	@Test
-	public void testInsertMember() throws Exception {
-		MemberDAO dao = new MemberDAO();
-		MemberVO vo = new MemberVO();
-		vo.setMemId("a002");
-		vo.setMemPass("qwer");
-		vo.setMemName("홍길동");
-		vo.setMemReg01("960101");
-		vo.setMemReg02("211323");
-		vo.setMemBir(null);
-		vo.setMemZip("23051");
-		vo.setMemAdd1("대전시 중구");
-		vo.setMemAdd2("희영빌딩");
-		vo.setMemHometel("042-123-4567");
-		vo.setMemComtel("042-789-1234");
-		vo.setMemHp("010-5555-8888");
-		vo.setMemMail("dklsfja@hoid.kr");
-		dao.insertMember(vo);
-		assertThat(dao.selectMember(vo.getMemId()).getMemName(), is("홍길동"));
-				
-		}
+	/*
+	 * @Test public void testInsertMember() throws Exception { MemberDAO dao = new
+	 * MemberDAO(); MemberVO vo = new MemberVO(); vo.setMemId("a002");
+	 * vo.setMemPass("qwer"); vo.setMemName("홍길동"); vo.setMemReg01("960101");
+	 * vo.setMemReg02("211323"); vo.setMemBir(null); vo.setMemZip("23051");
+	 * vo.setMemAdd1("대전시 중구"); vo.setMemAdd2("희영빌딩");
+	 * vo.setMemHometel("042-123-4567"); vo.setMemComtel("042-789-1234");
+	 * vo.setMemHp("010-5555-8888"); vo.setMemMail("dklsfja@hoid.kr");
+	 * dao.insertMember(vo);
+	 * assertThat(dao.selectMember(vo.getMemId()).getMemName(), is("홍길동"));
+	 * 
+	 * }
+	 */
 
 	/*
 	 * @Test public void testUpdateMember() throws Exception { MemberDAO dao = new

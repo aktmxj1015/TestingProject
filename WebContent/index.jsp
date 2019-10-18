@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>넥스트 젠킨스</title>
 </head>
 <body>
 <h1>넥스트아이티 홈페이지!!!! </h1>
